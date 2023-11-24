@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KotlinUI" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.KotlinUI" parent="Base.Theme.KotlinUI" />
+    
+    
+    <style name="headlineTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="sloganTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="hintTheme">
+        <item name="android:textColor">@color/hint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins </item>
+    </style>
+</resources>
